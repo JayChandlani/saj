@@ -2,11 +2,11 @@ import { adminAndOwnerOnly, adminOwnerAndStaffOnly } from '@/utils/auth-utils';
 import { Routes } from '@/config/routes';
 
 export const siteSettings = {
-  name: 'PickBazar',
+  name: 'SAJ',
   description: '',
   logo: {
     url: '/logo.svg',
-    alt: 'PickBazar',
+    alt: 'SAJ',
     href: '/',
     width: 128,
     height: 40,
@@ -28,7 +28,7 @@ export const siteSettings = {
       labelTransKey: 'authorized-nav-item-logout',
     },
   ],
-  currencyCode: 'USD',
+  currencyCode: 'INR',
   sidebarLinks: {
     admin: [
       {
